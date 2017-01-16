@@ -1,0 +1,122 @@
+html{
+  height: 100%;
+}
+
+
+
+body{
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #ffffff;
+  text-align: center;
+  overflow: scroll;
+  background: url("../img/rain.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main{
+  position: relative;
+  margin: 1%;
+  z-index: 1;
+}
+
+h1{
+  margin: 5%;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+#about{
+  margin: 1%;
+  font-size: 200%;
+}
+
+#weatherplace{
+  background-color: rgba(256, 256, 256, 0.5);
+  padding:  20px;
+  margin:  1% 0 1% 0;
+  height:  200px;
+/*  border: solid 1px #000000;*/
+  border-radius: 5px;  
+  padding: 1%;
+  font-size: 150%;
+  color: #000000;
+  line-height: 200px;
+}
+
+#weatherplace p{
+    line-height: 1.4;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 2%;
+  width: 98%;
+  margin: 0 1% 1% 1%;
+  padding: 0 1% 0 1%;
+  height: 32px;
+  border-top: double #b2b2b2;
+  vertical-align: middle;
+}
+
+#footerRight {
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+  text-align: right;
+
+}
+
+#footerLeft {
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+}
+
+#wind {
+  display: inline-block;
+  width: 48%;
+  height: 50px;
+  line-height: 50px;
+  margin: 1% 0 1% 1%;
+  border-radius: 5px; 
+  background-color: rgba(256, 256, 256, 0.5);
+  float: right;
+  color: black;
+}
+
+#wind p{
+  line-height: 1.2;
+  display: inline-block;
+  vertical-align: middle;  
+}
+
+#humidity {
+  display: inline-block;
+  width: 48%;
+  height: 50px;
+  line-height: 50px;
+  margin: 1% 1% 1% 0;
+  border-radius: 5px; 
+  background-color: rgba(256, 256, 256, 0.5);
+  float: left;
+  color: black;
+}
+
+#humidity p{
+  line-height: 1.2;
+  display: inline-block;
+  vertical-align: middle;  
+}
+
+
+/*i:hover{
+  opacity: 0.5;
+}*/
+
+
